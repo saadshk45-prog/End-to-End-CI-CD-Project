@@ -39,7 +39,7 @@ pipeline {
                     docker stop jenkins-final-cicd-project-conatiner 2>nul
                     docker rm jenkins-final-cicd-project-conatiner 2>nul
 
-                    docker run -d --name jenkins-final-cicd-project-conatiner -p 8084:80 jenkins-pipeline-lab5
+                    docker run -d --name jenkins-final-cicd-project-conatiner -p 8084:80 jenkins-final-cicd-project
                 '''
             }
         }
